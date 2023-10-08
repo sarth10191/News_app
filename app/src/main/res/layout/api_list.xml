@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_shade_1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<!--replace the source with the logo -->
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/home_icon"
+            android:layout_margin="10dp"/>
+<!--     replace name of API with text of the name. Add additional property to keep overflow hidden if requreid   -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="@string/nameofapi"
+            android:layout_weight="1"
+            android:textColor="@color/yellow"
+            android:textSize="24sp"
+            android:layout_margin="15dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
